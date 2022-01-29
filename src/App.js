@@ -30,7 +30,7 @@ function App(){
       {colors.map((color, i) => 
           <ColorBlock key={i} color={color} />
       )}
-      <ColorForm/>
+      <ColorForm addColor={addColor} />
   </div>
     )
 }
